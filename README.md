@@ -1,7 +1,11 @@
 # blowout-progress-server
-Progress server using the blowout-api-server
+Progress server using the borderlandblowout (api-server)
 
-It will start an example web server at http://localhost:5001/
+It will start an example web server at http://localhost:5001/ showing status of the api-server
+
+You need to have a running api-server first. For testing, start it at the same server or configure the snap after install
+
+Here is the api-server: https://github.com/erik78se/borderlandblowout
 
 
 # Building and installing the snap package
