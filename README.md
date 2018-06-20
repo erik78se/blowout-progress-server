@@ -1,11 +1,15 @@
 # blowout-progress-server
 Progress server using the blowout-api-server
 
+It will start an example web server at http://localhost:5001/
 
-# Building the snap
+
+# Building and installing the snap package
 ```
 snapcraft
+snap install blowout-progress-server
 ```
+
 
 # Configure API endpoint
 Create config:
