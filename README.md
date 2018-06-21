@@ -1,7 +1,7 @@
 # blowout-progress-server
-Progress server using the borderlandblowout (api-server)
+Progress server - using the blowout-api-server
 
-It will start an example web server at http://localhost:5001/ showing status of the api-server
+It will start a web server at http://localhost:5001/ showing status of the api-server
 
 You need to have a running api-server first. For testing, start it at the same server or configure the snap after install
 
@@ -13,7 +13,6 @@ Here is the api-server: https://github.com/erik78se/borderlandblowout
 snapcraft
 snap install blowout-progress-server
 ```
-
 
 # Configure API endpoint
 Create config:
